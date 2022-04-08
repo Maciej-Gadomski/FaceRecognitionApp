@@ -1,0 +1,118 @@
+﻿
+.row {
+    position:relative
+}
+
+.startRegister {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.logs {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size:22px;
+}
+.footer{
+    position:relative;
+    height:10vh;
+}
+.menu{
+    float: right;
+}
+.columnRegister {
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+.columnFace {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.ceil {
+    width: 25vw;
+    height: 5vh;
+    padding: 2px;
+    font-size: 21px;
+    border-width: 2px;
+    border-color: #1e0ff4;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+    .inputText:hover, .ceil:hover {
+        background-color: #aed6fa;
+    }
+#pomButton{
+    visibility:collapse;
+}
+
+html {
+    background: rgb(34,191,195);
+    background: linear-gradient(0deg, rgba(34,191,195,0.9) 15%, rgba(76,104,238,0.9) 85%);
+    font-family: Verdana, Geneva, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.faceRecognition {
+    width: 50vh;
+    padding: 5px 0px 0px 0px
+}
+.registerBoxes {
+    width: 25vh;
+    padding: 20px 0px 0px 0px
+}
+.others {
+    padding: 15px 0px 0px 0px;
+    text-align:center;
+}
+.treebuttons {
+    
+    padding: 20px 0px 0px 0px;
+    width: 50vw;
+}
+.left{
+    float:left;
+    padding: 0px 4px 0px 0px 
+}
+table {
+    padding: 20px 0px 0px 30px;
+    margin-top: 0px;
+}
+
+.buttongreen {
+    color: #000000 !important;
+    font-size: 14px;
+    padding: 10px 20px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #8adb91;
+    background: #27a929;
+}
+.buttonred {
+    color: #000000 !important;
+    font-size: 14px;
+    padding: 10px 20px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #8adb91;
+    background: #D00909;
+}
+
+.buttongreen:hover, .buttonred:hover {
+    color: #000000 !important;
+    background: grad;
+    background: linear-gradient(top, #22BFC3, #4C68EE);
+    background: -ms-linear-gradient(top, #22BFC3, #4C68EE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#22BFC3), to(#4C68EE));
+    background: -moz-linear-gradient(top, #22BFC3, #4C68EE);
+}
